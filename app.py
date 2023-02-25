@@ -37,7 +37,7 @@ def callback():
     i = i + 1
 
 # add a button widget and configure with the call back
-button = Button(label="Press Me")
+button = Button(label="Please Press Me")
 button.on_click(callback)
 
 # put the button and plot in a layout and add to the document
